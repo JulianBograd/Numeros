@@ -1,0 +1,44 @@
+
+let resultado;
+
+// PI
+resultado = Math.PI;
+
+// Redondear
+resultado = Math.round(2.8);
+resultado = Math.round(2.2);
+resultado = Math.round(2.6);
+resultado = Math.round(2.5);
+resultado = Math.round(2.489);
+
+// Redondear para arriba
+resultado = Math.ceil(2.1);
+
+// Redondear para abajo
+resultado = Math.floor(2.9);
+
+// Raiz Cuadrada
+resultado = Math.sqrt(144);
+
+// Valor Absoluto
+resultado = Math.abs(-500);
+
+// Potencia
+resultado = Math.pow(8, 3);
+
+// Mínimo
+resultado = Math.min(3 , 2, 8, 12);
+
+// Máximo
+resultado = Math.max(3, 5, 2, 7, 13);
+
+// Aleatorio
+resultado = Math.random() * 20;
+
+// Aleatorio dentro de un rango
+resultado = Math.floor(Math.random() * 100);
+
+
+
+
+console.log(resultado);
